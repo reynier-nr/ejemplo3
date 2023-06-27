@@ -1,0 +1,18 @@
+/*Documento css*/
+* { font-size: 20px } /*Selector Universal*/
+
+body { background-color: aqua; 
+    color: blanchedalmond;}
+
+
+    h1{ background-color: blue; 
+        text-align: center;
+        text-decoration: underline;}
+
+    h2{ color: coral;}
+    h3{ color: aquamarine;}
+
+    .antencion {color:}
+    .isq { float: left; 
+        width: 20px; 
+        height: auto;}

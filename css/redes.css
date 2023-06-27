@@ -1,0 +1,33 @@
+/*DOCUMENTO*/
+
+header, div, article, nav, main, footer, aside {box-sizing: border-box; }
+
+* {margin: 0%; padding: 0%; 
+    background-color: rgb(255, 255, 255); color: rgb(95, 0, 211); }
+
+a.item {color: rgb(255, 255, 0); }
+
+.container {display: flex; 
+    width: 90%; 
+    margin: auto; }
+
+a.item { width: 33.33%; 
+    min-height: 5000px; 
+    text-align: center;
+    font-size: 5em; 
+    padding: 15px; }
+
+/*PANTALLAS MAYORES A 600px*/
+
+@media only screen and (min-width: 600px;) {
+    a.item { color: black; }
+ }
+
+ /*PANTALLAS MAYORES A 768px*/
+ @media only screen and (min-width: 768px;) 
+ { .container {width: 90%;} 
+ a.item { color: black; }
+{ font-size: 4em; }
+
+
+}

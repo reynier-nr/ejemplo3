@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecera">
+
+    </header>
+    <section class="contenido">
+        <div>
+            <h1>Título del Formulario</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, consequatur doloribus repudiandae ea, reprehenderit ut necessitatibus quod ipsa expedita distinctio dignissimos enim, sapiente totam excepturi! Architecto ipsum placeat alias! Adipisci.</p>
+        </div>
+        <div>
+            <form action="enviar.php" method="post">
+                <label for="">Nombre:
+                    <input type="text" name="nombre" id="nombre" placeholder="">
+                    <br>
+                    <input type="tel" name="telefono" placeholder="Teléfono 10 dígitos">
+                    <br>
+                    <input type="email" placeholder="e-mail">
+                    <br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </label>
+                <label for="">Elegir una opción</label>
+                <input list="lista" name="MiLista">
+                <detalist id="lista">
+                    <option value="Estudiante"></option>
+                    <option value="Egresado"></option>
+                    <option value="Empleado"></option>
+                    <option value="Visitante"></option>
+                    </datalist>
+                <input type="button" value="Enviar">
+            </form>
+
+        </div>
+    </section>
+    <footer class="pie">
+
+    </footer>
+</body>
+</html>

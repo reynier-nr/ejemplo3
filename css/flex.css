@@ -1,0 +1,26 @@
+/*DOCUMENTOS*/
+
+* { margin: 0; 
+  padding: 0% ;}
+
+header, section, article, footer, div, nav, aside, main { box-sizing: border-box; }
+
+section#gallery { width: 100%;
+                  min-height: 1px; }
+
+div.container { display: flex; 
+               /*flex-direction: column-reverse;*/
+                /*flex-wrap: wrap;*/
+               flex-flow: row wrap; 
+               justify-content: space-between ;
+               /*align-items: stretch;*/  
+               width: 70%; 
+               min-height: 1px; 
+               background: rgb(68, 0, 98); 
+               margin: auto; 
+               padding: 15px ;}
+
+div.items { width: 33.33% ; 
+            height: 100px; 
+            background: rgb(117, 75, 25); 
+            border-radius: 15px; }

@@ -1,0 +1,20 @@
+/DOCUMENTO CSS/
+
+*{ margin: 0px;
+   padding: 0px; }
+
+.cabecera {text-align: center;
+            height: 90px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: rgb(212, 194, 176); }
+h1 { width: 100% ;
+    min-height: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(227, 151, 107);
+    color: rgb(254, 253, 254); }
+
+    
+.tablas { }
+.videos { }
